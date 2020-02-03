@@ -1,0 +1,130 @@
+.usersContainer {
+    padding: 0 5% 0 5%;
+}
+.detailsTable {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detailsTableHeader> div {
+    border: 1px solid gray;
+    padding: 5px;
+ 
+
+}
+
+.detailsTableContent> div {
+    border: 1px solid gray;
+    padding: 5px;
+    text-overflow: ellipsis;
+    word-wrap: none;
+
+}
+
+.detailsTableContent:nth-child(2n+1) {
+background-color: rgb(174, 165, 180);
+}
+
+.detailsTableContent:nth-child(2n) {
+    background-color: rgba(241, 227, 250, 0.849);
+
+}
+
+
+.detailsTableHeader {
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(218, 218, 218);
+    font-weight: 600;
+
+}
+
+.detailsTableContent {
+    display: flex;
+    flex-direction: row;
+
+    border: 1px solid gray;
+
+}
+
+.id{
+    width: 10%
+}
+.name{
+    width: 35%;
+}
+.email {
+    width: 55%;
+}
+
+.idHeader{
+    width: 10%
+}
+.nameHeader{
+    width: 35%;
+}
+.emailHeader {
+    width: 55%;
+}
+
+
+
+
+ .pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+} 
+ .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+        color: #777;
+        background-color: #fff;
+        border-color: #ddd;
+        cursor: not-allowed;
+    }
+
+     .pagination>li>a, .pagination>li>span {
+        position: relative;
+        float: left;
+        padding: 6px 12px;
+        line-height: 1.42857143;
+        text-decoration: none;
+        color: #337ab7;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        margin-left: -1px;
+    }
+
+
+     .pagination>li {
+        display: inline;
+    }
+
+
+
+     .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+        color: #777;
+        background-color: #fff;
+        border-color: #ddd;
+        cursor: not-allowed;
+    }
+ 
+     .pagination>li>a, .pagination>li>span {
+        position: relative;
+        float: left;
+        padding: 6px 12px;
+        line-height: 1.42857143;
+        text-decoration: none;
+        color: #337ab7;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        margin-left: -1px;
+    }
+
+     .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+        z-index: 3;
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #337ab7;
+        cursor: default;
+    }

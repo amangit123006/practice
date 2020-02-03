@@ -1,0 +1,23 @@
+.UserDetailsContainer {
+    background-color: rgba(184, 175, 190, 0.747);
+    height: 100%;
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.userDetails div {
+    padding: 10px 0 10px 0;
+}
+
+.userImage {
+
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
